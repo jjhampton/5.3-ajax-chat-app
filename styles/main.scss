@@ -19,3 +19,17 @@ body {
   background-color: $base-background-color;
   color: $base-font-color;
 }
+
+.message-form {
+  border-top: 2px solid $blue;
+  padding-top: 20px;
+}
+
+.message-form-textarea {
+  display: block;
+  width: 75%
+}
+
+.message-form-submit {
+  display: block;
+}
