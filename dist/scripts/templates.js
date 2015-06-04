@@ -21,7 +21,9 @@ this["JST"]["message"] = Handlebars.template({"1":function(depth0,helpers,partia
     + alias3(((helper = (helper = helpers._id || (depth0 != null ? depth0._id : depth0)) != null ? helper : alias1),(typeof helper === alias2 ? helper.call(depth0,{"name":"_id","hash":{},"data":data}) : helper)))
     + "</li>\n  <li class=\"message-property\">Room Name: "
     + alias3(((helper = (helper = helpers.roomname || (depth0 != null ? depth0.roomname : depth0)) != null ? helper : alias1),(typeof helper === alias2 ? helper.call(depth0,{"name":"roomname","hash":{},"data":data}) : helper)))
-    + "</li>\n</ul>\n";
+    + "</li>\n  <li class=\"message-property\">User Image: <img src=\""
+    + alias3(((helper = (helper = helpers.gravatar || (depth0 != null ? depth0.gravatar : depth0)) != null ? helper : alias1),(typeof helper === alias2 ? helper.call(depth0,{"name":"gravatar","hash":{},"data":data}) : helper)))
+    + "\"></li>\n</ul>\n";
 },"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
     var stack1, helper;
 
