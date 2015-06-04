@@ -1,6 +1,9 @@
-{{#each this}}
-<li>Username: {{username}}</li>
-<li>Content: {{content}}</li>
-<li>Time: {{created_at}}</li>
-<li>Message ID: {{_id}}
+{{#each messages}}
+<ul class="message-recieved">
+  <li class="message-property">Username: {{username}}</li>
+  <li class="message-property">Content: {{content}}</li>
+  <li class="message-property">Time: {{moment created_at}}</li>
+  <li class="message-property">Message ID: {{_id}}</li>
+  <li class="message-property">Room Name: {{roomname}}</li>
+</ul>
 {{/each}}

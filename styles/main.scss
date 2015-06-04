@@ -20,6 +20,15 @@ body {
   color: $base-font-color;
 }
 
+
+.login-form-username,
+.login-form-submit,
+.login-form-roomname {
+  display: block;
+  width: 50%;
+
+}
+
 .message-form {
   border-top: 2px solid $blue;
   padding-top: 20px;
